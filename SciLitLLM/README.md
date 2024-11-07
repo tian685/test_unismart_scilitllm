@@ -27,7 +27,7 @@ Scientific literature understanding is essential for extracting valuable insight
 <img src="assets/lit_understanding.png" alt="Scientific Literature Understanding" width="50%">
 
 ## Evaluation results
-
+ 
 ![Scientific Literature Understanding](assets/evaluation.png)
 
 To reproduce the baselines, you can refer to [SciRIFF_SciLitLLMs](https://github.com/Jn-Huang/SciRIFF_SciLitLLMs) and [SciAssess](https://github.com/sci-assess/SciAssess).

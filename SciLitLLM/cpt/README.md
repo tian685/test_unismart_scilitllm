@@ -39,6 +39,7 @@ python format_grammar_correction.py --input_path resources/parse-text.jsonl --ou
 
 This script will take the parsed text from `resources/parse-text.jsonl`, send it to the LLM for correction, and save the corrected textual splits (in words) in `resources/parse-correction-text.jsonl`.
 
+
 ### Quality Control
 
 Directly performing quality control over our CPT corpora with pre-trained LLM could be costy. Instead, we use the LLM to label the quality score on a subset of the corpora, then use the labelled subset to train a BERT classifier to predict the quality score for the rest of the corpora.
